@@ -1,0 +1,695 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------- NAV TOPO ------ */
+
+.nav1{
+    display: flex;
+    background-color:beige;
+    height: 70px;
+}
+.nav1 .div1{
+    display: flex;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.nav1 ul{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: auto 100px auto auto;
+
+}
+.nav1 ul a{
+    color: brown;
+    text-decoration: none;
+}
+.nav1 ul a:hover{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ----- H1 ---- */
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 100;
+    color: #464646;
+}
+
+/* ----------- H2 ------- */
+.marm{
+    text-align: center;
+    margin: 50px auto 0px auto;
+    width: 100%;
+    background-color: beige;
+    padding-top: 30px;
+    font-weight: 100;
+    color: #464646;
+    
+}
+/* ----------- SECTION 2  ----- */
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    height: 260px;
+    align-items: center;
+    gap: 50px;
+    justify-content:center ;
+
+}
+
+/* ------------ DIV 1 Marmita ----- */
+
+.sec2 .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ebe64e;
+    border-radius: 10px;
+}
+
+.sec2 .div1 img{
+    height: 50%;
+    width: 53%;
+    border-radius: 10px ;
+}
+
+.sec2 .div1 p{
+    margin: 5px auto 20px auto;
+    color: brown;
+}
+.sec2 .div1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec2 .div1 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec2 .div1 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: brown;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec2 .div1 div a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* ------------ DIV 2 Marmita ----- */
+.sec2 .div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ebe64e;
+    border-radius: 10px;
+}
+
+.sec2 .div2 img{
+    height: 55%;
+    width: 58%;
+    border-radius: 10px ;
+}
+
+.sec2 .div2 p{
+    margin: 5px auto 20px auto;
+    color: brown;
+}
+.sec2 .div2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec2 .div2 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec2 .div2 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: brown;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec2 .div2 div a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------ DIV 3 Marmita ----- */
+
+.sec2 .div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ebe64e;
+    border-radius: 10px;
+}
+
+.sec2 .div3 img{
+    height: 58%;
+    width: 61%;
+    border-radius: 10px ;
+}
+
+.sec2 .div3 p{
+    margin: 5px auto 20px auto;
+    color: brown;
+}
+.sec2 .div3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec2 .div3 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec2 .div3 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: brown;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec2 .div3 div a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------- h2 bebida --------*/
+
+.beb{
+    text-align: center;
+    margin: 30px auto 0px auto;
+    width: 100%;
+    background-color: #ff44002d;
+    padding-top: 30px;
+    font-weight: 100;
+    color: #3a3a3a;
+    
+}
+/* ----------- SECTION 3  ----- */
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    background-color: #ff44002d;
+    height: 260px;
+    align-items: center;
+    gap: 50px;
+    justify-content:center ;
+
+}
+
+/* ------------ DIV 1 bebida ----- */
+
+.sec3 .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ff440098;
+    border-radius: 10px;
+}
+
+.sec3 .div1 img{
+    height: 47%;
+    width: 59%;
+    border-radius: 10px ;
+    margin: 15px auto auto auto;
+}
+
+.sec3 .div1 p{
+    margin: 5px auto 20px auto;
+    color: black;
+}
+.sec3 .div1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec3 .div1 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec3 .div1 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-image: linear-gradient(to top left, white,#ffc4ae);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec3 .div1 div a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+/* ------------ DIV 2 bebida ----- */
+.sec3 .div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ff440098;
+    border-radius: 10px;
+}
+
+.sec3 .div2 img{
+    height: 55%;
+    width: 58%;
+    border-radius: 10px ;
+}
+
+.sec3 .div2 p{
+    margin: 5px auto 20px auto;
+    color: black;
+}
+.sec3 .div2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec3 .div2 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec3 .div2 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-image: linear-gradient(to top left, white,#ffc4ae);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec3 .div2 div a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* ------------ DIV 3 bebida ----- */
+
+.sec3 .div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #ff440098;
+    border-radius: 10px;
+}
+
+.sec3 .div3 img{
+    height: 54%;
+    width: 67%;
+    border-radius: 10px ;
+    margin-bottom: 0px;
+}
+
+.sec3 .div3 p{
+    margin: 5px auto 15px auto;
+    color: black;
+}
+.sec3 .div3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec3 .div3 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec3 .div3 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-image: linear-gradient(to top left, white,#ffc4ae);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec3 .div3 div a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* ---------- h2 sobremesa --------*/
+
+.sob{
+    text-align: center;
+    margin: 30px auto 0px auto;
+    width: 100%;
+    background-color: #d2691e9d;
+    padding-top: 30px;
+    font-weight: 100;
+    color: black;
+    
+}
+
+/* ----------- SECTION 4  ----- */
+
+.sec4{
+    display: flex;
+    flex-direction: row;
+    background-color: #d2691e9d;
+    height: 260px;
+    align-items: center;
+    gap: 50px;
+    justify-content:center ;
+
+}
+
+/* ------------ DIV 1 sobremesa ----- */
+
+.sec4 .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #69351d;
+    border-radius: 10px;
+}
+
+.sec4 .div1 img{
+    height: 50%;
+    width: 53%;
+    border-radius: 10px ;
+}
+
+.sec4 .div1 p{
+    margin: 5px auto 20px auto;
+    color: white;
+}
+.sec4 .div1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec4 .div1 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec4 .div1 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: #e6cbc0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec4 .div1 div a:hover{
+    color: #331002;
+    text-decoration: none;
+}
+/* ------------ DIV 2 sobremesa ----- */
+.sec4 .div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #69351d;
+    border-radius: 10px;
+}
+
+.sec4 .div2 img{
+    height: 52%;
+    width: 58%;
+    border-radius: 10px ;
+
+}
+
+.sec4 .div2 p{
+    margin: 5px auto 20px auto;
+    color: white;
+}
+.sec4 .div2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec4 .div2 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec4 .div2 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: #e6cbc0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec4 .div2 div a:hover{
+    color: #331002;
+    text-decoration: none;
+}
+
+/* ------------ DIV 3 sobremesa ----- */
+
+.sec4 .div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #69351d;
+    border-radius: 10px;
+}
+
+.sec4 .div3 img{
+    height: 35%;
+    width: 65%;
+    border-radius: 10px ;
+    margin: 15px auto;
+}
+
+.sec4 .div3 p{
+    margin: 5px auto 20px auto;
+    color: white;
+}
+.sec4 .div3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.sec4 .div3 div a{
+    color: black;
+    text-decoration: none;
+}
+
+.sec4 .div3 div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    background-color: #e6cbc0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec4 .div3 div a:hover{
+    color: #331002;
+    text-decoration: none;
+}
+
+/* ---------- RODAPÉ -------- */
+
+footer{
+    display: flex;
+    background-image: linear-gradient(to top,rgba(156, 156, 156, 0.795), rgba(226, 226, 226, 0.473),rgba(255, 255, 255, 0) );
+    margin: 200px 0px 0px 0px;
+    height: 100px;
+}
+footer p{
+    color: rgb(31, 31, 31);
+    margin: auto auto 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+}

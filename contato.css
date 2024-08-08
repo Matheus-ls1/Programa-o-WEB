@@ -1,0 +1,132 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------- NAV TOPO ------ */
+
+.nav1{
+    display: flex;
+    background-color:beige;
+    height: 70px;
+}
+.nav1 .div1{
+    display: flex;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.nav1 ul{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: auto 100px auto auto;
+
+}
+.nav1 ul a{
+    color: brown;
+    text-decoration: none;
+}
+.nav1 ul a:hover{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ----- H1 ---- */
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 100;
+    color: #464646;
+}
+
+/* ------ SECTION 1 ------ */
+
+.sec1{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 750px;
+    align-items: center;
+}
+
+/* ---- MAPA ------ */
+
+.map{
+    height: 453px;
+    width: 470px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top: 1px solid #b9b95d;
+    border-bottom: 1px solid #b9b95d;
+    padding-bottom: 2px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+/* ----------- INFORMAÇÕES -------- */
+
+.inf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 453px;
+    background-color: white;
+    width: 470px;
+    border-top: 1px solid #b9b95d;
+    border-bottom: 1px solid #b9b95d;
+    border-right: 1px solid #b9b95d;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* ------ LISTA ----------- */
+
+.list{
+    display: flex;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 300px;
+    justify-content: center;
+    list-style: none;
+
+}
+.inf ul img{
+    height: 30px;
+    width: 30px;
+    margin: auto 20px auto auto;
+}
+.inf ul li{
+
+    height: 40px;
+    width: 300px;
+    
+}
+
+/* ---------- RODAPÉ -------- */
+
+footer{
+    display: flex;
+    background-image: linear-gradient(to top,rgba(156, 156, 156, 0.795), rgba(226, 226, 226, 0.473),rgba(255, 255, 255, 0) );
+    margin: 200px 0px 0px 0px;
+    height: 100px;
+}
+footer p{
+    color: rgb(31, 31, 31);
+    margin: auto auto 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
